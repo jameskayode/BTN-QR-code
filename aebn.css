@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+}
+
+.card{
+    padding: 20px;
+    background-color: #fff;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+   padding-bottom: 20px;
+    
+}
+.card-dsc h1{
+        color: hsl(218, 44%, 22%);
+        font-size: 25px;
+
+}
+img{
+    width:  300px;
+    border-radius: 20px;
+   align-self: center;
+}
+.card-dsc p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+   width: 240px;
+   text-align: center;
+   padding-left: 20px;
+}
